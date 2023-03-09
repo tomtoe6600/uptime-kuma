@@ -38,7 +38,7 @@ namespace UptimeKuma {
     {
         private static Mutex mutex = null;
 
-        const string appName = "Uptime Kuma";
+        const string appName = "NeoUptime";
 
         private NotifyIcon trayIcon;
         private Process process;
@@ -156,7 +156,7 @@ namespace UptimeKuma {
                 });
 
             } catch (Exception e) {
-                MessageBox.Show("Startup failed: " + e.Message, "Uptime Kuma Error");
+                MessageBox.Show("Startup failed: " + e.Message, "NeoUptime Error");
             }
         }
 
@@ -206,12 +206,12 @@ namespace UptimeKuma {
 
         void VisitGitHub(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/louislam/uptime-kuma");
+            Process.Start("https://github.com/tomtoe6600/uptime-kuma");
         }
 
         void About(object sender, EventArgs e)
         {
-            MessageBox.Show("Uptime Kuma Windows Runtime v1.0.0" + Environment.NewLine + "© 2023 Louis Lam", "Info");
+            MessageBox.Show("NeoUptime Windows Runtime v1.0.0" + Environment.NewLine + "© 2023 Louis Lam", "Info");
         }
 
         void Exit(object sender, EventArgs e)
@@ -231,7 +231,7 @@ namespace UptimeKuma {
                     line += process.StandardOutput.ReadLine();
                 }
 
-                MessageBox.Show("Uptime Kuma exited unexpectedly. Exit code: " + process.ExitCode + " " + line);
+                MessageBox.Show("NeoUptime exited unexpectedly. Exit code: " + process.ExitCode + " " + line);
             }
 
             trayIcon.Visible = false;

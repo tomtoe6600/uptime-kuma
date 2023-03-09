@@ -102,7 +102,7 @@ class DockerHost {
 
     /**
      * Since axios 0.27.X, it does not accept `tcp://` protocol.
-     * Change it to `http://` on the fly in order to fix it. (https://github.com/louislam/uptime-kuma/issues/2165)
+     * Change it to `http://` on the fly in order to fix it. (https://github.com/tomtoe6600/uptime-kuma/issues/2165)
      */
     static patchDockerURL(url) {
         if (typeof url === "string") {

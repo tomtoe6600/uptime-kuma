@@ -29,7 +29,7 @@ class SMTP extends NotificationProvider {
             };
         }
 
-        // Should fix the issue in https://github.com/louislam/uptime-kuma/issues/26#issuecomment-896373904
+        // Should fix the issue in https://github.com/tomtoe6600/uptime-kuma/issues/26#issuecomment-896373904
         if (notification.smtpUsername || notification.smtpPassword) {
             config.auth = {
                 user: notification.smtpUsername,

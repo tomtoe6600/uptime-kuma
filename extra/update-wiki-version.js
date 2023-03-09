@@ -20,7 +20,7 @@ function updateWiki(newVersion) {
 
     safeDelete(wikiDir);
 
-    childProcess.spawnSync("git", [ "clone", "https://github.com/louislam/uptime-kuma.wiki.git", wikiDir ]);
+    childProcess.spawnSync("git", [ "clone", "https://github.com/tomtoe6600/uptime-kuma.wiki.git", wikiDir ]);
     let content = fs.readFileSync(howToUpdateFilename).toString();
 
     // Replace the version: https://regex101.com/r/hmj2Bc/1

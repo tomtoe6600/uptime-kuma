@@ -11,7 +11,7 @@ import * as timezone from "dayjs/plugin/timezone";
 import * as utc from "dayjs/plugin/utc";
 
 export const isDev = process.env.NODE_ENV === "development";
-export const appName = "Uptime Kuma";
+export const appName = "NeoUptime";
 export const DOWN = 0;
 export const UP = 1;
 export const PENDING = 2;
@@ -65,7 +65,7 @@ export function ucfirst(str: string) {
 
 /**
  * @deprecated Use log.debug
- * @since https://github.com/louislam/uptime-kuma/pull/910
+ * @since https://github.com/tomtoe6600/uptime-kuma/pull/910
  * @param msg
  */
 export function debug(msg: any) {

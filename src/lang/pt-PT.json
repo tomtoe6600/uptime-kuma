@@ -412,7 +412,7 @@
     "Container Name / ID": "Nome / ID do Contentor",
     "supportTelegramChatID": "Chat de Apoio Direto / Grupo / ID do Chat do Canal",
     "chatIDNotFound": "O ID do Chat não é encontrado; por favor envie uma mensagem a este bot primeiro",
-    "trustProxyDescription": "Confiar nos headers 'X-Forwarded-*'. Se quiser obter o IP correto do cliente e o seu Uptime Kuma está por detrás de um proxy como o Nginx ou Apache, deve activá-lo.",
+    "trustProxyDescription": "Confiar nos headers 'X-Forwarded-*'. Se quiser obter o IP correto do cliente e o seu NeoUptime está por detrás de um proxy como o Nginx ou Apache, deve activá-lo.",
     "Long-Lived Access Token can be created by clicking on your profile name (bottom left) and scrolling to the bottom then click Create Token. ": "O Token de Acesso de Longa Duração pode ser criado clicando no nome do seu perfil (em baixo à esquerda) e descendo para o fundo da pagina e depois clicando em Criar Token. ",
     "lastDay1": "Último Dia do Mês",
     "pauseMaintenanceMsg": "Quer mesmo colocar em pausa?",

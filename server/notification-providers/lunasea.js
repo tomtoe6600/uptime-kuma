@@ -18,7 +18,7 @@ class LunaSea extends NotificationProvider {
         try {
             if (heartbeatJSON == null) {
                 let testdata = {
-                    "title": "Uptime Kuma Alert",
+                    "title": "NeoUptime Alert",
                     "body": msg,
                 };
                 await axios.post(lunaseaurl, testdata);

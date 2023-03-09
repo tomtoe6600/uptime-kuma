@@ -256,10 +256,10 @@
     "slack": "Slack",
     "Icon Emoji": "Emoji 图标",
     "Channel Name": "频道名称",
-    "Uptime Kuma URL": "Uptime Kuma URL",
+    "NeoUptime URL": "NeoUptime URL",
     "aboutWebhooks": "关于 Webhook 的更多信息：{0}",
     "aboutChannelName": "如果您想绕过 Webhook 频道，请在 {0} 字段输入所需的频道名称。例如：#other-channel",
-    "aboutKumaURL": "如果保留 Uptime Kuma URL 为空，将会默认指向项目的 GitHub 页面。",
+    "aboutKumaURL": "如果保留 NeoUptime URL 为空，将会默认指向项目的 GitHub 页面。",
     "emojiCheatSheet": "Emoji 速查：{0}",
     "rocket.chat": "Rocket.Chat",
     "pushover": "Pushover",
@@ -473,7 +473,7 @@
     "Remove Token": "移除 Token",
     "Start": "启动",
     "Stop": "停止",
-    "Uptime Kuma": "Uptime Kuma",
+    "NeoUptime": "NeoUptime",
     "Add New Status Page": "添加新的状态页",
     "Slug": "路径",
     "Accept characters:": "可接受的字符：",
@@ -596,7 +596,7 @@
     "Domain": "域名",
     "Workstation": "工作站",
     "disableCloudflaredNoAuthMsg": "您现在正处于 No Auth 模式，无需输入密码。",
-    "trustProxyDescription": "信任 'X-Forwarded-*' 头。如果您的 Uptime Kuma 是通过 Nginx 或 Apache 等反代服务对外提供访问的话，则您应当启用本功能以获取正确的客户端 IP。",
+    "trustProxyDescription": "信任 'X-Forwarded-*' 头。如果您的 NeoUptime 是通过 Nginx 或 Apache 等反代服务对外提供访问的话，则您应当启用本功能以获取正确的客户端 IP。",
     "wayToGetLineNotifyToken": "您可以在 {0} 获取 Access token",
     "Examples": "例如",
     "Home Assistant URL": "Home Assistant 地址",
@@ -736,5 +736,5 @@
     "pagertreeHigh": "高",
     "pagertreeResolve": "自动解除",
     "pagertreeDoNothing": "什么都不做",
-    "wayToGetPagerTreeIntegrationURL": "在 PagerTree 中创建 Uptime Kuma 集成后，复制端点 URL 到此处。在 {0} 查看详情"
+    "wayToGetPagerTreeIntegrationURL": "在 PagerTree 中创建 NeoUptime 集成后，复制端点 URL 到此处。在 {0} 查看详情"
 }

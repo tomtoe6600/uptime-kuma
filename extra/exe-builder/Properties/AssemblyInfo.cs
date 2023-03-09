@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Uptime Kuma")]
+[assembly: AssemblyTitle("NeoUptime")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Uptime Kuma")]
+[assembly: AssemblyProduct("NeoUptime")]
 [assembly: AssemblyCopyright("Copyright © 2023 Louis Lam")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
