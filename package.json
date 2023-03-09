@@ -39,8 +39,8 @@
         "build-docker-nightly-amd64": "docker buildx build -f docker/dockerfile --platform linux/amd64 -t tomtoe6600/uptime-kuma:nightly-amd64 --target nightly . --push --progress plain",
         "build-docker-pr-test": "docker buildx build -f docker/dockerfile --platform linux/amd64,linux/arm64 -t tomtoe6600/uptime-kuma:pr-test --target pr-test . --push",
         "upload-artifacts": "docker buildx build -f docker/dockerfile --platform linux/amd64 -t tomtoe6600/uptime-kuma:upload-artifact --build-arg VERSION --build-arg GITHUB_TOKEN --target upload-artifact . --progress plain",
-        "setup": "git checkout master && npm ci --production && npm run download-dist",
-        "download-dist": "node extra/download-dist.js",
+        "setup": "git checkout master && npm ci --production && npm run build",
+   
         "mark-as-nightly": "node extra/mark-as-nightly.js",
         "reset-password": "node extra/reset-password.js",
         "remove-2fa": "node extra/remove-2fa.js",
